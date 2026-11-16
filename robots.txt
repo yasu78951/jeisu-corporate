@@ -1,4 +1,6 @@
+# 本URLは新しいサイトへ移転しました
+# 新サイト: https://jeiesu-corp.github.io/
+#
+# このリポジトリは旧URLからの転送専用です。検索エンジンには登録させません。
 User-agent: *
-Allow: /
-
-Sitemap: https://yasu78951.github.io/jeisu-corporate/sitemap.xml
+Disallow: /

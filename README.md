@@ -1,19 +1,21 @@
-# 株式会社ジェイエス コーポレートサイト
+# 株式会社ジェイエス（旧URL・転送専用）
 
-株式会社ジェイエス（JEISU Co., Ltd.）の公式コーポレートサイトです。
+このリポジトリは **旧URL `https://yasu78951.github.io/jeisu-corporate/` からの転送専用** です。
 
-- 公開URL: https://yasu78951.github.io/jeisu-corporate/
-- 1ページ完結の静的HTML（`index.html`）。画像はすべてHTML内に埋め込み済みで、外部アセットへの依存はありません。
-- 公開設定: GitHub Pages（main ブランチ / ルート）
-
-## 更新方法
-
-`index.html` を差し替えてコミット・プッシュすると、数十秒〜数分で公開ページに反映されます。
+- 公式サイト（新URL）: **https://jeiesu-corp.github.io/**
+- `index.html` は新しいサイトへ自動転送する軽量ページ（`noindex, nofollow` 付き）です。
+- `robots.txt` は全クローラーを拒否し、検索結果に旧URLが残らないようにしています。
+- 旧サイトの `sitemap.xml` は新サイトの `https://jeiesu-corp.github.io/sitemap.xml` に一本化したため削除しました。
 
 ## ファイル
 
 | ファイル | 役割 |
 | --- | --- |
-| `index.html` | トップページ（全コンテンツ） |
-| `robots.txt` | クローラー向け設定・サイトマップ位置 |
-| `sitemap.xml` | XMLサイトマップ |
+| `index.html` | 新URLへのリダイレクトページ |
+| `robots.txt` | 全クローラー拒否（noindex 相当） |
+
+## 完全に削除したい場合
+
+GitHub のリポジトリ設定から削除できます（https://github.com/yasu78951/jeisu-corporate/settings → 最下部「Delete this repository」）。
+Pages の公開停止だけなら https://github.com/yasu78951/jeisu-corporate/settings/pages → 「Unpublish site」。
+ただし削除すると旧URLは 404 となり、新URLへの自動転送も止まります。
