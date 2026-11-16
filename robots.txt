@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yasu78951.github.io/jeisu-corporate/sitemap.xml
